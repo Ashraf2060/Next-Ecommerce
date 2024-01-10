@@ -6,7 +6,8 @@ import { getCart } from "@/lib/db/cart";
 import ShoppingCartButton from "./ShoppingCartButton";
 import UserMenuButton from "./UserMenuButton";
 import { getServerSession } from "next-auth";
-import { authOption } from "../api/auth/[...nextauth]/route";
+import { authOption } from "@/lib/db/authOption";
+
 
 
 
