@@ -40,7 +40,7 @@ const Footer = () => {
 <h2>Subscribe Newslatter</h2>
 
 <div>  <input className='w-full p-2 rounded-lg' type='text' placeholder='email adress'  /></div>
-<button className='p-2 bg-gradient-to-r from-blue-800 to-red-300 max-w-fit rounded-3xl font-semibold self-center'> Subscribe....</button>
+<button className='btn btn-primary'> Subscribe....</button>
 
 </div>
 
